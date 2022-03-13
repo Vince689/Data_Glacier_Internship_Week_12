@@ -86,15 +86,15 @@ def predict():
                               ))
 if __name__=="__main__":
     app.run(port=5000, debug=True, use_reloader=False)
-print(final_features.shape)
+#print(final_features.shape)
 
 
 # In[ ]:
 
 
-from platform import python_version
+# from platform import python_version
 
-print(python_version())
+# print(python_version())
 
 
 # In[ ]:
@@ -106,11 +106,9 @@ print(python_version())
 # In[ ]:
 
 
-from notebooktoall.transform import transform_notebook
-transform_notebook(ipynb_file="Flask_Deployment.ipynb", export_list=["html", "py"])
+# from notebooktoall.transform import transform_notebook
+# transform_notebook(ipynb_file="Flask_Deployment.ipynb", export_list=["html", "py"])
 
-
-# In[ ]:
 
 
 

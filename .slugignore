@@ -2,7 +2,6 @@
 *.pdf
 /.ipynb_checkpoints
 /neural_network_best_model
-Flask_Deployment.py
 model
 model.joblib
 model.pkl
